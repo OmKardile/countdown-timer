@@ -1,0 +1,83 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body{
+	font-family: 'Ubuntu', sans-serif;
+	height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url('https://images.unsplash.com/photo-1524678714210-9917a6c619c2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==&auto=format&fit=crop&w=869&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: rgb(122, 122, 122);
+    background-blend-mode: multiply;
+}
+
+h1{
+	padding: 1%;
+	color: #ffffff;
+	font-weight:bolder;
+}
+
+.content{
+	padding: 25%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-size: 3rem;
+}
+
+.btn{
+	padding: 10px 20px;
+	background-color: #fff;
+	border-radius: 10px;
+	font-size: large;
+	font-weight: 700;
+	
+}
+.btn:hover{
+	background-color: #c9eae5;
+	text-decoration: underline;
+	text-decoration-color: #000;
+	text-decoration-thickness:2px ;
+}
+
+.start{
+	color: #ff74b0;
+}
+.stop{
+	color: #E00;
+}
+#start{
+	color: #00ff99;
+}
+#continue{
+	color: rgb(11, 207, 155);
+}
+#continue, .stop, #start{
+	display: none;
+}
+
+#seconds{
+	width: 250px;
+	background: none;
+	outline: none;
+	border: none;
+	border-bottom: 4px solid #fdc7c5;
+	padding: 10px;
+	margin: 10px;
+	font-size: 2rem;
+	color: white;
+}
+
+#seconds::placeholder{
+	color: #bbe2df;
+}
